@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Pokemon Finder</title>
+</head>
+<body>
+    <h1 class="titulo">Buscador de Pokemons</h1>
+    <form action="https://pokeapi.co/api/v2/pokemon/" method="get" id="form" class="formulario">
+        <input type="number" name="pokemonId" id="pokemonId" placeholder="Pokemon ID" class="input" autofocus>
+        <input type="submit" value="Search" id="search" class="boton">
+    </form>
+    <div id="cards-container" class="cards"></div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,183 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: grey;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.titulo {
+  color: white;
+  letter-spacing: 5px;
+  margin: 2rem;
+}
+
+.formulario {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: stretch;
+  justify-content: center;
+  background-color: rgb(155, 154, 154);
+  border-radius: 15px;
+  margin-bottom: 3em;
+  height: 3em;
+  outline: none;
+  border: none;
+}
+
+.formulario .input {
+  border-radius: 15px 0 0 15px;
+  background-color: rgb(155, 154, 154);
+  color: white;
+  outline: none;
+  border: none;
+  width: 20rem;
+  appearance: none;
+  padding: 1rem;
+}
+
+.formulario .input::placeholder {
+  color: white;
+}
+
+.formulario .boton {
+  border-radius: 0 15px 15px 0;
+  width: 5rem;
+  outline: none;
+  border: none;
+  background-color: rgb(155, 154, 154);
+  color: white;
+}
+
+.formulario .boton:hover {
+  cursor: pointer;
+  background-color: rgb(199, 197, 197);
+}
+
+.card-container {
+  background-color: rgb(216, 214, 214);
+  padding: 1rem;
+  border-radius: 25px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  height: 28rem;
+  width: 18rem;
+}
+
+.card-container .nombre {
+  font-size: xx-large;
+  text-align: center;
+  font-style: italic;
+}
+
+.card-container .tipos {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.card-container .altura-peso {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card-container .tipos .tipo {
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  color: white;
+  font-weight: normal;
+  text-shadow: black 1px 0 10px;
+}
+
+.card-container .tipos .grass {
+  background-color: rgb(8, 197, 8);
+}
+
+.card-container .tipos .poison {
+  background-color: rgb(108, 18, 192);
+}
+
+.card-container .tipos .fire {
+  background-color: rgb(255, 136, 0);
+}
+
+.card-container .tipos .flying {
+  background-color: rgb(185, 109, 230);
+}
+
+.card-container .tipos .water {
+  background-color: rgb(40, 162, 243);
+}
+
+.card-container .tipos .bug {
+  background-color: rgb(190, 207, 93);
+}
+
+.card-container .tipos .normal {
+  background-color: rgb(188, 192, 192);
+}
+
+.card-container .tipos .electric {
+  background-color: rgb(233, 208, 66);
+}
+
+.card-container .tipos .ground {
+  background-color: rgb(219, 180, 82);
+}
+
+.card-container .tipos .fairy {
+  background-color: rgb(235, 81, 201);
+}
+
+.card-container .tipos .fighting {
+  background-color: rgb(192, 0, 0);
+}
+
+.card-container .tipos .psychic {
+  background-color: rgb(219, 20, 186);
+}
+
+.card-container .tipos .rock {
+  background-color: rgb(167, 123, 59);
+}
+
+.card-container .tipos .steel {
+  background: #a5a5a6;
+  background: -webkit-linear-gradient(right, #a5a5a6, #474747);
+  background: -moz-linear-gradient(right, #a5a5a6, #474747);
+  background: linear-gradient(to left, #a5a5a6, #474747);
+}
+
+.card-container .tipos .ice {
+  background-color: rgb(128, 215, 255);
+}
+
+.card-container .tipos .ghost {
+  background-color: rgb(127, 13, 192);
+  border: 3px solid rgb(148, 63, 197);
+}
+
+.card-container .tipos .dragon {
+  background-color: rgb(60, 92, 231);
+}
+
+.card-container .tipos .dark {
+  background-color: rgb(87, 58, 26);
+}
