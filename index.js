@@ -51,6 +51,7 @@ async function searchPokemon(e) {
         <h2 class="error"> Pokemon no Encontrado </h2>
         `;
     }
+    formulario.reset();
   }
 }
 
