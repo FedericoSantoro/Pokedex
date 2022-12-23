@@ -9,8 +9,12 @@
 </head>
 <body>
     <h1 class="titulo">Buscador de Pokemons</h1>
-    <form action="https://pokeapi.co/api/v2/pokemon/" method="get" id="form" class="formulario">
+    <form id="formId" class="formulario">
         <input type="number" name="pokemonId" id="pokemonId" placeholder="Pokemon ID" class="input" autofocus>
+        <input type="submit" value="Search" id="search" class="boton">
+    </form>
+    <form id="formName" class="formulario">
+        <input type="text" name="pokemonId" id="pokemonName" placeholder="Pokemon Name" class="input" autofocus>
         <input type="submit" value="Search" id="search" class="boton">
     </form>
     <div id="cards-container" class="cards"></div>

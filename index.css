@@ -31,7 +31,7 @@ body {
   justify-content: center;
   background-color: rgb(155, 154, 154);
   border-radius: 15px;
-  margin-bottom: 3em;
+  margin-bottom: 1em;
   height: 3em;
   outline: none;
   border: none;
@@ -75,6 +75,7 @@ body {
   justify-content: space-evenly;
   height: 28rem;
   width: 18rem;
+  margin-top: 2em;
   margin-bottom: 3rem;
   box-shadow: 5px 5px 5px 4px rgba(0, 0, 0, 0.2);
 }
@@ -109,6 +110,7 @@ body {
 }
 
 .error {
+  margin-top: 2em;
     color: white;
     text-align: center;
   }
