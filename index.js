@@ -44,11 +44,11 @@ async function searchPokemon(e) {
   } catch (e) {
     if (wantedPokemon.value.length === 0) {
       cardContainer.innerHTML = `
-        <h2> Ingrese un ID de pokemon por favor </h2>
+        <h2 class="error"> Ingrese un ID de pokemon por favor </h2>
         `;
     } else {
       cardContainer.innerHTML = `
-        <h2> Pokemon no Encontrado </h2>
+        <h2 class="error"> Pokemon no Encontrado </h2>
         `;
     }
   }
